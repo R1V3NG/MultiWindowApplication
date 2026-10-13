@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мой день</string>
+
+    <string name="author">Хадиулин Дамир Т-433901-ИСТ</string>
+
+    <string name="btn_morning">Утро</string>
+    <string name="btn_day">День</string>
+    <string name="btn_evening">Вечер</string>
+    <string name="btn_night">Ночь</string>
+    <string name="btn_next">Далее</string>
+    <string name="btn_back">Назад</string>
+
+    <string name="title_morning">Утро</string>
+    <string name="title_day">День</string>
+    <string name="title_evening">Вечер</string>
+    <string name="title_night">Ночь</string>
+
+    <string name="list_morning">• Проснуться и заправить кровать\n• Сделать зарядку\n• Почистить зубы\n• Умыться\n• Позавтракать\n• Собраться и выйти из дома</string>
+    <string name="list_day">• Пообедать\n• Тихий час\n• Зарядка и разминка\n• Выпить воды\n• Закончить рабочие дела</string>
+    <string name="list_evening">• Посмотреть сериал\n• Посмотреть фильм\n• Погулять\n• Поиграть в игры\n• Встретиться с друзьями\n• Почитать книгу</string>
+
+    <string name="push_day_title">Скоро конец рабочего дня</string>
+    <string name="push_day_text">Заканчивайте дела — рабочий день подходит к концу!</string>
+    <string name="push_evening_title">Пора спать!</string>
+    <string name="push_evening_text">СПАТЬ! Завтра будет новый день.</string>
+
+    <string name="question_sleep">Ты спишь?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="sleep_button_desc">Кнопка сна</string>
+    <string name="image_desc">Иллюстрация</string>
+</resources>

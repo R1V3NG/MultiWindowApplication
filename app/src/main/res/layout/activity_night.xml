@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/night" />
+
+    <!-- Кнопка без текста -->
+    <Button
+        android:id="@+id/btnSleep"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:alpha="0.6"
+        android:contentDescription="@string/sleep_button_desc" />
+</FrameLayout>

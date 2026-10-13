@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/author"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btnMorning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#F6E474"
+        android:text="@string/btn_morning" />
+
+    <Button
+        android:id="@+id/btnDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#90FF70"
+        android:text="@string/btn_day" />
+
+    <Button
+        android:id="@+id/btnEvening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FFA877"
+        android:text="@string/btn_evening" />
+
+    <Button
+        android:id="@+id/btnNight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#98A5FF"
+        android:text="@string/btn_night" />
+</LinearLayout>
